@@ -1,0 +1,228 @@
+body{
+	font-family: Ubuntu, sans-serif;
+	margin: 0;
+}
+.header {
+	background-color: #152940;
+	width: 100%;
+	text-align: right;
+	padding-bottom: 13px;
+}
+.logo{
+	margin-top: 6px;
+	float: left;
+	display: inline-block;
+	margin-left: 150px;
+	width: 5%;
+	
+}
+.navbar{
+	margin-right: 100px;
+	vertical-align: middle;
+}
+.navbar a:link{
+	color: #FFFFFF;
+}
+.navbar h1{
+	margin-top: 23px;
+	font-size: 14pt;
+	padding-right: 50px;
+}
+a{
+	text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+	display: inline-block;
+}
+.containertop{
+	height: 570px;
+	background-color: #3e7cbf;
+	z-index: 0;
+}
+@font-face {
+	font-family: BigJohn;
+	src: url("../font/BIG JOHN.otf") format("opentype");
+}
+.slogan{
+	font-size: 24pt;
+	text-align: center;
+	padding-top: 50px;
+	color: #FFFFFF;
+	font-family: BigJohn;
+}
+.tagline{
+	padding-top: 25px;
+	color: #FFFFFF;
+	font-family: Ubuntu;
+	font-style: italic;
+	text-align: center;
+	font-size: 24pt;
+}
+.searchpart{
+	font-family: Ubuntu;
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 47px;
+}
+.toptext{
+	margin-top: 3px;
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	color: #000000;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.angka{
+	font-size: 18pt;
+	color: #FFFFFF;
+	text-align: center;
+	display: inline-block;
+}
+.containersearch{
+	margin-left: 27%;
+	width: 625px;
+	vertical-align: middle;
+	white-space: nowrap;
+	position: relative;
+}
+.containersearch input#search{
+  width: 625px;
+  height: 50px;
+  background: #152940;
+  border: none;
+  font-size: 14pt;
+  float: left;
+  color: #ccc;
+  padding-left: 20px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+.containersearch input#search::-webkit-input-placeholder {
+   color: #ccc;
+   font-family: Ubuntu;
+}
+ 
+.containersearch input#search:-moz-placeholder { /* Firefox 18- */
+   color: #ccc;  
+   font-family: Ubuntu;
+}
+ 
+.containersearch input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #ccc;  
+   font-family: Ubuntu;
+}
+ 
+.containersearch input#search:-ms-input-placeholder {  
+   color: #ccc;  
+   font-family: Ubuntu;
+}
+
+.containersearch .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 280px;
+  margin-top: 15px;
+  z-index: 1;
+  color: #ccc;
+}
+.containersearch input#search:hover, .containersearch input#search:focus, .containersearch input#search:active{
+    outline:none;
+    background: #ffffff;
+  }
+  .textmiddle{
+  	padding-top: 45px;
+	text-align: center;
+	width: 69%;
+	border-bottom:2px solid #FFFFFF;
+	line-height: 0.1em;
+	margin: 4% 15% 20px;
+	font-size: 18pt;
+}
+
+.textmiddle span{
+	color: #FFFFFF;
+	font-family: Ubuntu;
+	background : #3e7cbf;
+	padding: 0 10px;
+}
+
+.topik{
+	
+}
+.icontopik{
+	margin-left: 18%;
+	margin-bottom: 10px;
+}
+
+.icon{
+	padding-right: 8.3%;
+}
+.texttopikpart{
+	vertical-align: middle;
+	margin-left: 16%;
+	margin-top: 10px;
+}
+.text {
+	font-family: Ubuntu;
+	font-size: 10pt;
+	color: #FFFFFF;
+	display: inline-block;
+	text-align: center;
+	padding-right: 2%;
+	vertical-align: middle;
+}
+
+.textek{
+	font-family: Ubuntu;
+	font-size: 10pt;
+	color: #FFFFFF;
+	display: inline-block;
+	text-align: center;
+	padding-right: 2%;
+}
+
+.textpe{
+	font-family: Ubuntu;
+	font-size: 10pt;
+	color: #FFFFFF;
+	display: inline-block;
+	text-align: center;
+	padding-right: 2%;
+}
+
+.textp{
+	font-family: Ubuntu;
+	font-size: 10pt;
+	color: #FFFFFF;
+	display: inline-block;
+	text-align: center;
+	padding-left: 2.5%;
+	padding-right: 8.4%;
+}
+
+.textk{
+	font-family: Ubuntu;
+	font-size: 10pt;
+	color: #FFFFFF;
+	display: inline-block;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 8%;	
+}
+.texte{
+	font-family: Ubuntu;
+	font-size: 10pt;
+	color: #FFFFFF;
+	display: inline-block;
+	text-align: center;
+	padding-left: 4%;
+	vertical-align: middle;
+}
